@@ -27,8 +27,9 @@ stages:
     type: apt
     source:
       packages:
-      - dkms
       - sysfsutils
+      - gparted
+      - kitty
 
 #  - name: example-commands # Sample module demonstrating the Shell module with custom commands
 #    type: shell
